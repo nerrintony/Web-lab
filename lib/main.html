@@ -1,8 +1,33 @@
 <html>
-<head><titlte>Login</title><head>
+<head><title>Login</title></head>
 <body bgcolor="pink">
+	<form action="main.php" method="POST">
     <center>
+    	<h3>Login</h3>
+    	<br><br>
         <table>
-            
+        	<tr>
+            	<td>Staff/Student</td>
+            	<td><select name="staff">
+					<option>---options---</option>
+            		<option>Teaching Staff</option>
+					<option>Non Teaching Staff</option>
+					<option>Student</option>
+            	</select></td>
+            </tr>
+            <tr>
+            	<td>Username</td>
+            	<td><input type="text" name="uname"></td>
+            </tr>
+            <tr>
+            	<td>Password</td>
+            	<td><input type="password" name="pass"></td>
+            </tr>
+			<tr>
+            	<td align="center" colspan="2"><input type="submit" value="login" name="submit"></td>
+            </tr>
         </table>
     </center>
+	</form>
+</body>
+</html>

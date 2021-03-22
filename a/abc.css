@@ -1,0 +1,17 @@
+.a1
+{
+    border-radius: 15px;
+    font-size : 25px;
+    color : cyan;
+}
+
+.a2
+{
+    color : lightcyan;
+}
+
+body
+{
+    background-image: url("a.jpg");
+    background-size: cover;
+}
